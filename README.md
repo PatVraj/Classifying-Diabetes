@@ -3,7 +3,7 @@
 ## Overview
 A comprehensive machine learning project evaluating multiple models (SVM, Neural Networks, Decision Trees, Logistic Regression, Random Forests) for diabetes prediction. This project represents a culmination of exploratory data analysis and classification modeling, highlighting a strong data mining workflow from data preparation to complex deep learning hyperparameter tuning using real-world health datasets.
 
-[📊 View the Project Presentation](./Diabetes.pptx)
+[View the Project Presentation](./Diabetes.pptx)
 
 ## Architecture / Tech Stack
 - **Models**: SVM, Neural Networks, Decision Trees, Random Forest, Logistic Regression
