@@ -3,6 +3,8 @@
 ## Overview
 A comprehensive machine learning project evaluating multiple models (SVM, Neural Networks, Decision Trees, Logistic Regression, Random Forests) for diabetes prediction. This project represents a culmination of exploratory data analysis and classification modeling, highlighting a strong data mining workflow from data preparation to complex deep learning hyperparameter tuning using real-world health datasets.
 
+[📊 View the Project Presentation](./Diabetes.pptx)
+
 ## Architecture / Tech Stack
 - **Models**: SVM, Neural Networks, Decision Trees, Random Forest, Logistic Regression
 - **Data Stack**: Pandas, NumPy
@@ -32,6 +34,8 @@ jupyter notebook
 ## Key Results / Metrics
 - Compared various architectures to find the optimal trade-off between recall and precision for medical diagnoses.
 - Handled class imbalances effectively, showcasing robust data mining methodologies.
+- Extracted top features utilizing distinct ML models: `GenHealth`, `BMI`, `Age`, `HighBP`, and `Income`.
+- Achieved stable accuracies across tuned algorithms (e.g., Logistic Regression: 75.3%, SVM: 74.8%, Decision Tree: 74.3%).
 - Explored extensive hyperparameter tuning strategies for Neural Networks.
 
 ## Data Provenance & Licensing
