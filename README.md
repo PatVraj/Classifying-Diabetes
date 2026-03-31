@@ -1,7 +1,7 @@
-# Classifying Diabetes
+# Classifying Diabetes (Data Mining Final Project)
 
 ## Overview
-A comprehensive machine learning project evaluating multiple models (SVM, Neural Networks, Decision Trees, Logistic Regression, Random Forests) for diabetes prediction. This project highlights a strong data mining workflow, from exploratory data analysis to model evaluation and tuning.
+A comprehensive machine learning project evaluating multiple models (SVM, Neural Networks, Decision Trees, Logistic Regression, Random Forests) for diabetes prediction. This project represents a culmination of exploratory data analysis and classification modeling, highlighting a strong data mining workflow from data preparation to complex deep learning hyperparameter tuning using real-world health datasets.
 
 ## Architecture / Tech Stack
 - **Models**: SVM, Neural Networks, Decision Trees, Random Forest, Logistic Regression
@@ -11,10 +11,10 @@ A comprehensive machine learning project evaluating multiple models (SVM, Neural
 
 ```mermaid
 flowchart TD
-    A[Raw Patient Data] --> B[Data Preprocessing]
+    A[Raw Patient Data] --> B[Data Preprocessing & Cleaning]
     B --> C[Feature Engineering]
     C --> D1[SVM]
-    C --> D2[Neural Network]
+    C --> D2[Neural Network (Keras Tuner)]
     C --> D3[Random Forest]
     D1 & D2 & D3 --> E[Model Evaluation & Comparison]
 ```
@@ -32,9 +32,10 @@ jupyter notebook
 ## Key Results / Metrics
 - Compared various architectures to find the optimal trade-off between recall and precision for medical diagnoses.
 - Handled class imbalances effectively, showcasing robust data mining methodologies.
+- Explored extensive hyperparameter tuning strategies for Neural Networks.
 
 ## Data Provenance & Licensing
 - Dataset based on BRFSS (Behavioral Risk Factor Surveillance System) tabular data.
 
 ## Collaborators
-- Vraj Patel
+- Vraj Patel, Nikhil Chakka, Kavin Ramesh
