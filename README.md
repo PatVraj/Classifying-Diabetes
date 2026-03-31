@@ -13,12 +13,12 @@ A comprehensive machine learning project evaluating multiple models (SVM, Neural
 
 ```mermaid
 flowchart TD
-    A[Raw Patient Data] --> B[Data Preprocessing & Cleaning]
-    B --> C[Feature Engineering]
-    C --> D1[SVM]
-    C --> D2[Neural Network (Keras Tuner)]
-    C --> D3[Random Forest]
-    D1 & D2 & D3 --> E[Model Evaluation & Comparison]
+    A["Raw Patient Data"] --> B["Data Preprocessing & Cleaning"]
+    B --> C["Feature Engineering"]
+    C --> D1["SVM"]
+    C --> D2["Neural Network (Keras Tuner)"]
+    C --> D3["Random Forest"]
+    D1 & D2 & D3 --> E["Model Evaluation & Comparison"]
 ```
 
 ## Local Setup Instructions
